@@ -1,6 +1,6 @@
 # shurl
 
-shurl is an very small rack application, that provices url shortening.
+shurl is an very small rack application, that provides url shortening.
 
 ## Installation
 
