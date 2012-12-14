@@ -1,4 +1,4 @@
-class Shurl::App
+class Shortey::App
  
   @@redis = Redis.new(:host => 'localhost')
 

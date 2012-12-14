@@ -3,5 +3,5 @@ require 'redis'
 require 'uri'
 require 'zlib'
 
-require 'shurl/version'
-require 'shurl/app'
+require 'shortey/version'
+require 'shortey/app'

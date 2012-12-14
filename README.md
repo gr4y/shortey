@@ -1,12 +1,12 @@
-# shurl
+# shortey
 
-shurl is an very small rack application, that provides url shortening.
+shortey is an very small rack application, that provides url shortening.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'shurl'
+    gem 'shortey'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install shurl
+    $ gem install shortey
 
 ## Usage
 

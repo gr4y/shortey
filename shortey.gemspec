@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'shurl/version'
+require 'shortey/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "shurl"
-  gem.version       = Shurl::VERSION
+  gem.name          = "shortey"
+  gem.version       = Shortey::VERSION
   gem.authors       = ["Sascha Wessel"]
   gem.email         = ["swessel@gr4yweb.de"]
   gem.description   = %q{an url-shortener based on rack and redis}

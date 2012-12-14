@@ -5,4 +5,4 @@ class MiniTest::Spec
   include Rack::Test::Methods
 end
 
-require 'shurl'
+require 'shortey'

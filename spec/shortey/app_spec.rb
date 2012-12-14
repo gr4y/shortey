@@ -1,10 +1,10 @@
 require 'spec_helper'
 
 def app
-  Shurl::App
+  Shortey::App
 end
 
-describe "Shurl::App" do
+describe "Shortey::App" do
 
   describe 'when I enter an valid URL' do
 
