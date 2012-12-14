@@ -1,12 +1,12 @@
-# Shoosh
+# shurl
 
-TODO: Write a gem description
+shurl is an very small rack application, that provices url shortening.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'shoosh'
+    gem 'shurl'
 
 And then execute:
 
@@ -14,11 +14,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install shoosh
+    $ gem install shurl
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: I will provide usage instructions later, when this app is ready for production
 
 ## Contributing
 
