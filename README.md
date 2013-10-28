@@ -1,5 +1,7 @@
 # shortey
 
+[![Build Status](https://travis-ci.org/gr4y/shortey.png)](https://travis-ci.org/gr4y/shortey)
+
 shortey is an very small rack application, that provides url shortening.
 
 ## Installation
