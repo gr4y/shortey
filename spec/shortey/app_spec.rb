@@ -1,12 +1,12 @@
 require 'spec_helper'
 
 def app
-  Shortey::App
+  Shortey::App.new
 end
 
-describe "Shortey::App" do
+describe Shortey::App do
 
-  describe 'when I enter an valid URL' do
+  context 'when I enter an valid URL' do
 
     it 'should return an hash' do
       url = 'http://google.de'
@@ -18,7 +18,7 @@ describe "Shortey::App" do
 
   end
 
-  describe 'when I enter an invalid URL' do
+  context 'when I enter an invalid URL' do
 
     it 'should return error 500' do
       request '/', :params => { 'url' => 'ftp://mapple.com' }

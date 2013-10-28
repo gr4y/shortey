@@ -1,8 +1,8 @@
-require 'minitest/autorun'
+require 'rspec'
 require 'rack/test'
 
-class MiniTest::Spec
-  include Rack::Test::Methods
+RSpec.configure do |c|
+  c.include Rack::Test::Methods
 end
 
 require 'shortey'
