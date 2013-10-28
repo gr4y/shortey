@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency "rack", "~> 1.4.1"
+  gem.add_runtime_dependency "nyny", "~> 2.0.0"
   gem.add_runtime_dependency "redis", "~> 3.0.2"
   gem.add_development_dependency "minitest", "~> 4.3.3"
   gem.add_development_dependency "rack-test", "~> 0.6.2"

@@ -1,4 +1,4 @@
-require 'rack'
+require 'nyny'
 require 'redis'
 require 'uri'
 require 'zlib'
