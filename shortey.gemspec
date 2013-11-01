@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{an url-shortener based on rack and redis}
   gem.summary       = %q{an url-shortener based on rack and redis}
   gem.homepage      = "https://github.com/gr4y/shortey"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
